@@ -1,0 +1,99 @@
+/* 全体のスタイル */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+/* フォームのスタイル */
+form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* 見出しのスタイル */
+h1 {    
+    text-align: center;
+    border-top: 3px solid #05c5ff;
+    border-bottom: 3px solid #05c5ff;
+}
+
+/* 入力エリアのスタイル */
+p {
+    margin-bottom: 15px;
+    color: #666;
+}
+
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+label {
+    margin-right: 10px;
+    color: #333;
+}
+
+/* ボタンのスタイル */
+#button {
+    text-align: center;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #006aff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #000dff;
+}
+
+/* データベース接続のメッセージ */
+#success {
+    background-color: #acdcab;
+    color: #000000c0;
+    padding: 1px;
+    border-radius: 10px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+#warning {
+    background-color: #ffcccc;
+    color: #ff0000;
+    padding: 1px;
+    border-radius: 10px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+/* テーブルのスタイル */
+table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+table th {
+    padding: 10px;
+    background: #e9faf9;
+    border: solid 1px #778ca3;
+}
+table td {
+    padding: 10px;
+    border: solid 1px #778ca3;
+}
